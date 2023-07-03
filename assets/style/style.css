@@ -237,6 +237,50 @@
     color: white;
     margin-left: 13px;
     margin-top: 30px;
+    width: 350px;
+}
+
+
+
+#footer {
+    width: 100%;
+    background-color: rgb(92, 52, 0);
+    margin-top: 50px;
+}
+.footer-logo img {
+    width: 140px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.social-links {
+    margin-top: 40px;
+}
+.social-links i {
+    background: rgb(129, 84, 0);
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.copyright {
+    color: white;
+    margin-top: 40px;
+}
+.copyright span {
+    color: rgb(255, 255, 255);
+}
+.arrow-up {
+    color: white;
+    font-size: 50px;
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 @media (max-width: 1199px) {

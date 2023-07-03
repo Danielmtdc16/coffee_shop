@@ -176,24 +176,6 @@
     cursor: pointer;
 }
 
-@media (max-width: 1199px) {
-    #about .container p {
-        font-size: 10px;
-    }
-    
-}
-
-@media (max-width: 767px) {
-    #about {
-        height: 120vh;
-    }
-    #about .container h3 {
-        margin-top: 30px;
-    }
-    #menu {
-        margin-top: 150vh;
-    }
-}
 
 
 #contact {
@@ -257,9 +239,42 @@
     margin-top: 30px;
 }
 
+@media (max-width: 1199px) {
+    #about .container p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    #about {
+        height: 120vh;
+    }
+    #about .container h3 {
+        margin-top: 30px;
+    }
+    #menu {
+        margin-top: 150vh;
+    }
+    #contact .container {
+        background: white;
+    }
+    #col {
+        width: 100%;
+    }
+    #contact {
+        height: 150vh;
+    }
+}
+
 @media (max-width: 553px) {
     #home .content #subtitle {
         font-size: 15px;
         width: 20rem;
+    }
+}
+
+@media (max-width: 400px) {
+    #contact input {
+        width: 250px;
     }
 }

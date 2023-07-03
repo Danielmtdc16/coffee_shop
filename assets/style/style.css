@@ -1,4 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(../images/back\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-logo {
+    width: 100px;
+}
+
+.nav-item .nav-link {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.home {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    height: 30rem;
+    width: 27rem;
+}
+
+#title {
+    font-size: 40px;
+}
+#subtitle {
+    font-size: 20px;
 }

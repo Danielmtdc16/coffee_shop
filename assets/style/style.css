@@ -31,7 +31,7 @@
     color: white;
 }
 
-.home {
+#home {
     background-image: url(../images/back\ 5.jpg);
     background-position: 50%;
     background-size: cover;
@@ -60,7 +60,7 @@
 #button-home {
     background-color: #C26914;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     color: rgb(0, 0, 0);
     font-size: 20px;
     padding: 15px 40px;
@@ -71,3 +71,195 @@
     color: white;
 }
 
+#about {
+    height: 80vh;
+    margin-bottom: 20vh;
+}
+#about .container {
+    padding-top: 70px;
+}
+.heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.heading span {
+    color: #964800;
+}
+#about .card {
+    border-radius: 10px;
+}
+#about .card img {
+    border-radius: 10px;
+}
+.container p {
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 23px;
+}
+.button-about {
+    background-color: #C26914;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 15px;
+    margin-top: 23px;
+    width: 15rem;
+}
+.button-about:hover {
+    background-color: #7a3c02;
+}
+
+.top-cards {
+    width: 100%;
+    height: 60vh;
+}
+.heading-two {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.heading-two span {
+    color: #964800;
+}
+.top-cards .container {
+    margin-top: 30px;
+}
+.top-cards .card {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.top-cards .card img {
+    border-radius: 10px;
+}
+.top-cards .card:hover {
+    transform: translateY(-10px);
+}
+
+
+#menu {
+    width: 100%;
+    margin-top: 60px;
+}
+.heading-three {
+    text-align: center;
+    font-size: 30px;
+    color: #964800;
+    font-weight: 700;
+}
+#container2 {
+    margin-top: 20px;
+}
+#container2 .row {
+    margin-bottom: 20px;
+}
+#menu .card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.star i {
+    color: #7a3c02;
+}
+#menu h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+#menu p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+#menu p span {
+    float: right;
+    cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+    #about .container p {
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    #about {
+        height: 120vh;
+    }
+    #about .container h3 {
+        margin-top: 30px;
+    }
+    #menu {
+        margin-top: 150vh;
+    }
+}
+
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+#contact .container {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, white 80%, #964800 20%);
+    border-radius: 10px;
+}
+.heading-four {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+.heading-four span{
+    color: #964800;
+}
+#contact p {
+    font-weight: 700;
+    border: none;
+    font-weight: 500;
+    width: 500px;
+}
+#contact input {
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid #C26914;
+}
+#button-contact {
+    width: 200px;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+    background: #964800;
+    color: white;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#col {
+    width: 40%;
+    height: 56vh;
+    background: black;
+    margin-top: 78px;
+}
+#contact h1 {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#contact #col p {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    margin-left: 13px;
+    margin-top: 30px;
+}
+
+@media (max-width: 553px) {
+    #home .content #subtitle {
+        font-size: 15px;
+        width: 20rem;
+    }
+}

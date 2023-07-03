@@ -43,8 +43,7 @@ body {
     color: white;
     display: flex;
     align-items: center;
-    padding: 0px 40px;
-    height: 35rem;
+    padding: 80px 40px;
 }
 
 .content {
@@ -76,7 +75,6 @@ body {
 }
 
 #about {
-    height: 80vh;
     margin-bottom: 20vh;
 }
 #about .container {
@@ -118,7 +116,6 @@ body {
 
 .top-cards {
     width: 100%;
-    height: 60vh;
 }
 .heading-two {
     text-align: center;
@@ -184,7 +181,6 @@ body {
 
 #contact {
     width: 100%;
-    height: 100vh;
     padding-top: 70px;
 }
 #contact .container {
@@ -293,21 +289,27 @@ html {
     }
 }
 
+@media (max-width: 992px) {
+    #contact #col p {
+        width: 200px;
+    }
+    #contact .contact-info {
+        width: 400px;
+    }
+}
+
 @media (max-width: 767px) {
-    #about {
-        height: 120vh;
-    }
-    #about .container h3 {
-        margin-top: 30px;
-    }
-    #menu {
-        margin-top: 150vh;
+    #about h3 {
+        margin-top: 20px;
     }
     #contact .container {
         background: white;
     }
     #col {
         width: 100%;
+    }
+    #contact #col p {
+        width: 450px;
     }
     #contact {
         height: 150vh;
@@ -321,8 +323,60 @@ html {
     }
 }
 
+@media (max-width: 511px) {
+    #about .container p {
+        width: 400px;
+        font-size: 13px;
+    }
+    #contact #col p {
+        width: 300px;
+    }
+}
+
+@media (max-width: 429px) {
+    #home #button-home {
+        width: 200px;
+        font-size: 15px;
+    }
+    #about .row p {
+        width: 350px;
+    }
+    #contact .contact-info {
+        width: 350px;
+    }
+}
 @media (max-width: 400px) {
+    #home .content #title {
+        font-size: 20px;
+    }
     #contact input {
         width: 250px;
+    }
+    #about .row p {
+        width: 300px;
+    }
+    #contact .contact-info {
+        width: 300px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+    .heading, .heading-two, .heading-three, .heading-four {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 375px) {
+    #home .content #subtitle {
+        width: 15rem;
+    }
+    #about .row p {
+        width: 300px;
+    }
+    #contact .contact-info {
+        width: 300px;
+    }
+    .copyright {
+        font-size: 12px;
     }
 }

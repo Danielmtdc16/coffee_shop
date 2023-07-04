@@ -24,6 +24,168 @@ html, body {
     padding: 80px;
 }
 
+.row-principal {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-fluid {
+    width: 300px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .info {
     color: white;
+}
+
+.info span {
+    color: #3f1e00;
+    font-weight: 700;
+}
+
+.info h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form-floating {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.icon {
+    color: #6e6e6e;
+    font-size: 20px;
+    position: absolute;
+    left: 1.25rem;
+}
+
+#user {
+    top: calc(17%);
+}
+
+#lock {
+    top: calc(17%);
+}
+
+.form {
+    border-radius: 4px;
+    padding: 12px;
+}
+
+#floatingEmail, #floatingPassword {
+    border: none;
+    background-color: #dad8d8;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: #6e6e6e;
+    font-weight: 600;
+    text-align: initial;
+
+}
+
+.form-floating .form {
+    left: .5rem;
+    padding-left: 3.5rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: #429C9C;
+    border: none;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: #1a6e6e;
+}
+
+@media (max-width: 957px) {
+    .content {
+        padding: 50px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 877px) {
+    .content {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 857px) {
+    .content {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 837px) {
+    .content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 817px) {
+    .content {
+        padding: 19px;
+    }
+
+    .img-fluid {
+        width: 200px;
+    }
+}
+
+@media (max-width: 794px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 734px){
+    .row-principal {
+        flex-direction: column;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 501px){
+    
+    .img-fluid {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }

@@ -67,18 +67,39 @@
     background-color: #00642a;
 }
 
+@media (max-width: 991px) {
+    .field-coffee {
+        max-width: 800px !important;
+    }
+}
+
+@media (max-width: 822px) {
+    .field-coffee {
+        max-width: 750px !important;
+    }
+}
+
 @media (max-width: 767px) {
+    .field-coffee {
+        padding: 50px !important;
+    }
     .row {
         flex-direction: column;
     }
     .coffee-image {
-        width: 300px;
+        max-width: 300px !important;
         margin-bottom: 15px;
     }
 }
 
 @media (max-width: 575px) {
     .field-coffee {
-       
+       padding: 50px !important;
+    }
+}
+
+@media (max-width: 369px) {
+    .coffee-image {
+        max-width: 240px !important;
     }
 }
